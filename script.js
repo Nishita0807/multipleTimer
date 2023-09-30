@@ -122,14 +122,14 @@ startButton.addEventListener('click', () => {
             const stopButton = document.createElement('button');
             stopButton.textContent = 'Stop';
             stopButton.className = 'stop-timer';
-            stopButton.style.marginRight='-200px';
+            
             stopButton.style.width='80px';
             stopButton.style.height='40px';
             stopButton.style.borderRadius='20px';
             stopButton.style.border='none';
             stopButton.style.backgroundColor='#34344a';
             stopButton.style.color='white';
-            stopButton.style.marginLeft="30px";
+            stopButton.style.marginLeft="55px";
             yellowDiv.appendChild(stopButton);
             
             activeTimers.replaceChild(yellowDiv, timer.element);
