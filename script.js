@@ -129,7 +129,7 @@ startButton.addEventListener('click', () => {
             stopButton.style.border='none';
             stopButton.style.backgroundColor='#34344a';
             stopButton.style.color='white';
-            stopButton.style.marginLeft="55px";
+            stopButton.style.marginLeft="100px";
             yellowDiv.appendChild(stopButton);
             
             activeTimers.replaceChild(yellowDiv, timer.element);
